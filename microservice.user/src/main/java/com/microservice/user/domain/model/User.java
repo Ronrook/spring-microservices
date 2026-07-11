@@ -38,10 +38,15 @@ public class User {
         this.roles = new HashSet<>();
     }
 
-
-    public void addRole(Role role){
-        roles.add(role);
+    public void addRole(Role role) {
+        this.roles.add(role);
     }
+
+    public void updatePassword(String encodedPassword) {
+        this.password = encodedPassword;
+    }
+
+
 
 
     private void validateBirthdate(LocalDate birthdate){
