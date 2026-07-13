@@ -1,6 +1,5 @@
 package com.microservice.user.domain.model;
 
-
 import lombok.Getter;
 
 import java.time.LocalDate;
