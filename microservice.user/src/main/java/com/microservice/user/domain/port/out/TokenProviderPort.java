@@ -4,4 +4,7 @@ public interface TokenProviderPort {
 
     String generateToken(String nickname);
 
+    boolean validateToken(String token);
+
+    String getNicknameFromToken(String token);
 }
