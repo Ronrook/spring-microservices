@@ -1,8 +1,9 @@
 package com.microservice.user.domain.exception;
 
-public class UserNotFoundException extends RuntimeException {
-    public UserNotFoundException(String message) {
-        super(message);
+public class UserNotFoundException extends BusinessException {
+
+    public UserNotFoundException(String nickname) {
+        super("User not found: " + nickname);
     }
 
 }
