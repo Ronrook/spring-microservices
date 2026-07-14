@@ -14,7 +14,7 @@
     <relativePath/>
   </parent>
 
-  <groupId>com.mycompany.app</groupId>
+  <groupId>com.Ronrook.app</groupId>
   <artifactId>Microservices-social-network</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -26,6 +26,7 @@
   <modules>
     <module>microservice.gateway</module>
     <module>microservice.user</module>
+    <module>microservice.social-network</module>
   </modules>
 
   <properties>

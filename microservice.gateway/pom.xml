@@ -7,7 +7,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.mycompany.app</groupId>
+		<groupId>com.Ronrook.app</groupId>
 		<artifactId>Microservices-social-network</artifactId>
 		<version>1.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
