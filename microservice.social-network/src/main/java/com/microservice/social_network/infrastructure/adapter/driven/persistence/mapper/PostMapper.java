@@ -9,7 +9,6 @@ import org.mapstruct.Mapping;
 public interface PostMapper {
 
     @Mapping(target = "id", ignore = true)
-    @Mapping(target = "createdAt", ignore = true)
     @Mapping(target = "likes", ignore = true)
     PostEntity toEntity(Post post);
 
